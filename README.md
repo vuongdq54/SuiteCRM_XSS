@@ -1,5 +1,3 @@
-## Reflect XSS vulnerability that exists on SuiteCRM
-
 ## Vendor:
     SuiteCRM 
 
@@ -13,43 +11,43 @@ Successful exploitation of this vulnerability may allow a remote attacker to cre
 The vulnerability exists with page_id param, response page_id is in javascript tag.
 
 <p align="center">
-<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image1.jpg" />
-<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image2.jpg" />
-<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image3.jpg" />
+<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image1.png" />
+<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image2.png" />
+<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image3.png" />
 </p>
 Response implemented escapeHTML with page_id
-<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image4.jpg" />
+<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image4.png" />
 However, page_id is in javascript tag so we can insert javascript to execute immediately
-<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image5.jpg" />
+<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image5.png" />
 
 ## Proof of Concept:
 
 <p align="center">
-<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image6.jpg" />
+<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image6.png" />
 </p>
 
 ## Steal potentially sensitive information
 
 <p align="center">
-<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image7.jpg" />
+<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image7.png" />
 </p>
 
 ## Redirect to site other
 
 <p align="center">
-<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image8.jpg" />
-<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image9.jpg" />
+<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image8.png" />
+<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image9.png" />
 </p>
 
 ## Create admin account
 
 <p align="center">
-<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image10.jpg" />
-<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image11.jpg" />
+<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image10.png" />
+<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image11.png" />
 </p>
 
 ## Payload
 <p align="center">
-<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image12.jpg" />
-<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image13.jpg" />
+<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image12.png" />
+<img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image13.png" />
 </p>
