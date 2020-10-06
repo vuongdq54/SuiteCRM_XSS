@@ -51,3 +51,7 @@ However, page_id is in javascript tag so we can insert javascript to execute imm
 <img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image12.png" />
 <img src="https://github.com/vuongdq54/SuiteCRM_XSS/blob/master/image13.png" />
 </p>
+
+## Reference
+
+https://docs.suitecrm.com/admin/releases/7.11.x/#_7_11_14
